@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="js/maps.js"></script>
+
+    <title>Explore city website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" type="text/css" />
+
+
+</head>
+
+
+
+<body>
+
+    <!-- Navigation bar -->
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">Explore Cities</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">City</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Feedback</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="container london-img">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <a href="img/london/london.jpg" target="_blank">
+                        <img src="img/london/london.jpg" alt="photo" style="width:100%">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <a href="img/london/london2.jpg" target="_blank">
+                        <img src="img/london/london2.jpg" alt="photo" style="width:100%">
+                    </a>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="thumbnail">
+                            <a href="img/london/london3.jpg" target="_blank">
+                        <img src="img/london/london3.jpg" alt="photo" style="width:100%">
+                    </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="thumbnail">
+                            <a href="img/london/london4.jpg" target="_blank">
+                        <img src="img/london/london4.jpg" alt="photo" style="width:100%">
+                    </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container london-description-container">
+                <div class="col-md-6">
+                    <div class="london-desciption text-center">
+                        <p>
+                            London is one of the most diverse and cosmopolitan cities in the world;
+                            but where is it actually located? London is the capital city of England 
+                            and is located in the south east of the country. Although a country in its own right, England is also part
+                            of the United Kingdom alongside Northern Ireland, Scotland and Wales.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <!-- Footer -->
+
+        <footer class="footer font-small special-color-dark pt-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">About Us</h5>
+                        <p>Exploring is the joy of everyones life</p>
+                    </div>
+
+
+                    <div class="col-md-6">
+                        <ul class="list-unstyled list-inline text-center">
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-fb mx-1">
+                                <i class="fab fa-facebook-f"> </i>
+                            </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-tw mx-1">
+                                <i class="fab fa-twitter"> </i>
+                            </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-gplus mx-1">
+                                <i class="fab fa-google-plus-g"> </i>
+                            </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-li mx-1">
+                                <i class="fab fa-linkedin-in"> </i>
+                            </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-dribbble mx-1">
+                                <i class="fab fa-dribbble"> </i>
+                            </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </footer>
+
+
+    <!--<script>
+        var APIKey = "AIzaSyB41D2aSMNjVO9Yzt81UX6lgf4RIKQAr2A";
+    </script> -->
+
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41D2aSMNjVO9Yzt81UX6lgf4RIKQAr2A&callback=initMap"></script>
+
+
+
+
+</body>
+
+</html>
