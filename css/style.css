@@ -16,3 +16,8 @@
 .footer {
     background-color: #A3F2A8;
 }
+
+
+#map {
+    min-height: 360px;
+}
